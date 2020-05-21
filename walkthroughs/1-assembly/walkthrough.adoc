@@ -1,0 +1,16 @@
+// URLs
+:openshift-console-url: {openshift-host}/dashboards
+:fuse-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse-version}/
+:amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
+
+//attributes
+:title: 1 - How to Assemble a Solution Pattern
+:standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
+:bl: pass:[ +]
+
+[id='1-how-to-assemble-a-solution-pattern']
+= {title}
+
+Here's some common text. Now let's see if we can pull in an assembly file.
+
+include::assembly_taskOne.adoc[leveloffset=+1]
