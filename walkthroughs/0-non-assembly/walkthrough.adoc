@@ -4,14 +4,14 @@
 :amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
 
 //attributes
-:title: 2 - How to Wash a Cat
+:title: 0 - How to Wash a Cat - Non Assembly Version
 :standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
 :bl: pass:[ +]
 
-[id='2-how-to-wash-a-cat']
+[id='1-how-to-assemble-a-solution-pattern']
 = {title}
 
-In this file, we will talk about how to wash a cat.
+Here's some common text. Now let's see if we can pull in an assembly file.
 
 [type=walkthroughResource,serviceName=openshift]
 .Red Hat OpenShift
@@ -28,6 +28,10 @@ In this file, we will talk about how to wash a cat.
 == How to Wash the Cat (According to the Dog)
 :task-context: washing-a-cat
 
+****
+*Washing a Cat*
+****
+
 Follow these steps to wash a cat:
 
 . Put both lids of the toilet up.
@@ -42,6 +46,7 @@ Follow these steps to wash a cat:
 . The cat will rocket out of the bathroom, streak through the house, and run outside where they will dry themselves off.
 . Both the toilet and cat will be sparkling clean.
 
+{bl}
 Thank you for following these steps for my enjoyment.
 
 Yours sincerely, 
@@ -53,4 +58,4 @@ Look at the cat and toilet to verify that both are clean.
 [type=verificationFail]
 {standard-fail-text}
 
-// end::task-creating-projects[]
+// end::task-washing-a-cat[]
