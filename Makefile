@@ -23,13 +23,8 @@ export PYTHONPATH := python
 
 .PHONY: render
 render: clean
-		antora local-antora-playbook.yml
-		./asciidoc-coalescer.rb --attribute overview-uml=null modules/crc.adoc > walkthroughs/crc/walkthrough.adoc
-		cp docs/skupper/crc/_images/Overview.svg walkthroughs/crc/
-		./asciidoc-coalescer.rb --attribute overview-uml=null modules/ocp.adoc > walkthroughs/ocp/walkthrough.adoc
-		cp docs/skupper/ocp/_images/Overview.svg walkthroughs/ocp/
-		sed -i '/.*plantuml.*/c\image::Overview.svg[]' walkthroughs/*/walkthrough.adoc
-		sed -i 's/\.\.\.\.//' walkthroughs/*/walkthrough.adoc
+		./asciidoc-coalescer.rb walkthroughs/assembly-1-assemble-me.adoc > walkthroughs/1-assemble-me/walkthrough.adoc
+		./asciidoc-coalescer.rb walkthroughs/assembly-2-assemble-me.adoc > walkthroughs/2-assemble-me/walkthrough.adoc
 
 .PHONY: clean
 clean:

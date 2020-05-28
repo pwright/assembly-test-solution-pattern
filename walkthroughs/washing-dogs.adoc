@@ -1,0 +1,36 @@
+[time=5]
+[id='how-to-wash-a-dog']
+= How to Wash the dog (According to the Cat)
+:task-context: washing-a-dog
+
+****
+*Washing a dog*
+****
+
+Follow these steps to wash a dog:
+
+. Put both lids of the toilet up.
+. Add 1/8 cup of pet shampoo to the bowl.
+. Pick up the dog, soothing him or her while carrying them to the bathroom.
+. In one smooth movement, put the dog in the toilet and close the lid.
+. Stand on the lid as necessary.
+. At this point, the dog will self-agitate and make ample suds. Ignore any noises of discomfort, the dog is actually enjoying this.
+. Flush the toilet three or four times. This provides a `power wash` and `rinse`.
+. Have someone open the front door of your home. Ensure nobody is between the bathroom and the frontt door.
+. Stand back as far as possible and quickly lift the lid.
+. The dog will rocket out of the bathroom, streak through the house, and run outside where they will dry themselves off.
+. Both the toilet and dog will be sparkling clean.
+
+{bl}
+Thank you for following these steps for my enjoyment.
+
+Yours sincerely, 
+The Dog.
+
+[type=verifidogion]
+Look at the dog and toilet to verify that both are clean.
+
+[type=verifidogionFail]
+{standard-fail-text}
+
+// end::task-washing-a-dog[]

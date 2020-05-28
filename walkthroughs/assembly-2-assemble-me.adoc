@@ -6,14 +6,16 @@
 :amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
 
 //attributes
-:title: 1 - How to Wash a Cat (assembly version)
+:title: 1 - How to Wash your pets
 :standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
 :bl: pass:[ +]
 
 [id='1-how-to-assemble-a-solution-pattern']
 = {title}
 
-Here's some common text. Now let's see if we can pull in an assembly file.
+This text is unique to this assembly.
+
+include::fragment.adoc[]
 
 [type=walkthroughResource,serviceName=openshift]
 .Red Hat OpenShift
@@ -25,4 +27,5 @@ Here's some common text. Now let's see if we can pull in an assembly file.
 
 :sectnums:
 
-include::assembly_taskOne.adoc[]
+include::washing-cats.adoc[leveloffset=+1]
+include::washing-dogs.adoc[leveloffset=+1]

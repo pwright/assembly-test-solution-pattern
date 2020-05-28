@@ -1,17 +1,21 @@
+// assembly attempt
+
 // URLs
 :openshift-console-url: {openshift-host}/dashboards
 :fuse-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse-version}/
 :amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
 
 //attributes
-:title: 0 - How to Wash a Cat - Non Assembly Version
+:title: 1 - How to Wash a Cat (assembly version)
 :standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
 :bl: pass:[ +]
 
 [id='1-how-to-assemble-a-solution-pattern']
 = {title}
 
-Here's some common text. Now let's see if we can pull in an assembly file.
+This text is unique to this assembly.
+
+Washing pets is a dangerous business, make sure your life insurance is up to date before proceeding.
 
 [type=walkthroughResource,serviceName=openshift]
 .Red Hat OpenShift
@@ -23,9 +27,11 @@ Here's some common text. Now let's see if we can pull in an assembly file.
 
 :sectnums:
 
+:leveloffset: +1
+
 [time=5]
 [id='how-to-wash-a-cat']
-== How to Wash the Cat (According to the Dog)
+= How to Wash the Cat (According to the Dog)
 :task-context: washing-a-cat
 
 ****
@@ -49,7 +55,7 @@ Follow these steps to wash a cat:
 {bl}
 Thank you for following these steps for my enjoyment.
 
-Yours sincerely, 
+Yours sincerely,
 The Dog.
 
 [type=verification]
@@ -59,3 +65,5 @@ Look at the cat and toilet to verify that both are clean.
 {standard-fail-text}
 
 // end::task-washing-a-cat[]
+
+:leveloffset!:

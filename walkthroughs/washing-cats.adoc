@@ -1,6 +1,6 @@
 [time=5]
 [id='how-to-wash-a-cat']
-== How to Wash the Cat (According to the Dog)
+= How to Wash the Cat (According to the Dog)
 :task-context: washing-a-cat
 
 ****
